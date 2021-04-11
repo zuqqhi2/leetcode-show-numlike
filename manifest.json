@@ -1,19 +1,15 @@
 {
-    "name": "LeetCodeShowNumLike",
-    "version": "0.1.0",
-    "manifest_version": 2,
-    "description": "Save number of like and dislike at last visit time for each problems and show them on problem list page.",
-    "content_scripts": [{
-      "matches": ["https://leetcode.com/problemset/all/*", "https://leetcode.com/problems/*/"],
-      "js": [
-        "app.js"
-      ],
-      "css": [
-      ]
-    }],
-    "permissions": [
-        "activeTab",
-        "https://leetcode.com/problemset/all/*",
-        "https://leetcode.com/problems/*/"
-    ]
+  "name": "LeetCodeShowNumLike",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "Save number of like and dislike at last visit time for each problems and show them on problem list page.",
+  "content_scripts": [{
+    "matches": [
+      "https://leetcode.com/problemset/all/*",
+      "https://leetcode.com/problems/*/"
+    ],
+    "js": ["app.js"],
+    "css": []
+  }],
+  "permissions": []
 }
